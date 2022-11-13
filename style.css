@@ -67,7 +67,7 @@ body {
 }
 
 .block div:nth-child(3) div {
-  padding: 0 56px 0 56px;
+  padding: 0 52px 0 52px;
   border: solid 0.5px #dbdbdb;
   margin: 0 10px 0 10px;
 }
@@ -75,6 +75,7 @@ body {
 .block div:nth-child(3) p {
   color: #8e8e8e;
   font-size: 13px;
+  font-weight: bold;
 }
 
 .block div:nth-child(4) button {
@@ -99,8 +100,7 @@ body {
 }
 
 .block a {
-  margin-top: 10px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   font-size: 12px;
   color: #385185;
   text-decoration: none;
@@ -113,8 +113,10 @@ body {
   color: #262626;
 }
 
-.block span {
+.block a span {
   color: #0095f6;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .app {
